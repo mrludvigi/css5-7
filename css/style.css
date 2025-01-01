@@ -475,5 +475,20 @@ main{
     flex-direction: column;
     align-items: flex-start;
     gap: var(--spacing-sm, 6px);
-    flex: 1 0 0;
+}
+.button-orange-about{
+    border: none;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: #FF371A;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
 }
