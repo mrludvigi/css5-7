@@ -118,7 +118,6 @@ main{
 }
 .button-orange{
     display: flex;
-    width: 200px;
     padding: 12px 24px;
     justify-content: center;
     align-items: center;
@@ -622,7 +621,6 @@ main{
     width: 250px;
     height: 65px;
     display: flex;
-    padding: 20px 108px 21px 108px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -679,4 +677,82 @@ footer{
     flex-direction: column;
     align-items: flex-start;
     gap: 64px;
+}
+.footer-top{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+.footer-top-left{
+    display: flex;
+    width: 320px;
+    min-width: var(--width-xxs, 320px);
+    max-width: var(--width-xxs, 320px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-4xl, 32px);
+}
+.design-p{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.footer-top-right{
+    display: flex;
+    min-width: 800px;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+.footer-menu-list{
+    display: flex;
+    width: 176px;
+    min-width: 96px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-xl, 16px);
+}
+.footer-list-subhead{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+}
+.footer-list-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-sm, 6px);
+    color: #535862;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+.footer-bottom{
+    display: flex;
+    padding-bottom: 32px;
+    align-items: center;
+    gap: var(--spacing-4xl, 32px);
+    align-self: stretch;
+}
+.social-list{
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-3xl, 24px);
+}
+.footer-bottom-text{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
 }
